@@ -6,15 +6,15 @@ int main(){
 	scanf(" %d %d %d %d %d", &a,&b,&c,&d,&e);
 	
 	if(a%2!=0){
-		int sum=a+sum;
-	}else if(b%2!=0){
-		int sum=b+sum; 
-	}else if(c%2!=0){
-		int sum=c+sum;
-	}else if(d%2!=0){
-		int sum=d+sum;
-	}else if(e%2!=0){
-		int sum=e+sum;
+		 sum=a+sum;
+	} if(b%2!=0){
+		 sum=b+sum; 
+	} if(c%2!=0){
+		sum=c+sum;
+	} if(d%2!=0){
+		 sum=d+sum;
+	} if(e%2!=0){
+		 sum=e+sum;
 	}
 	printf("tong cac so le la %d", sum);
 	
