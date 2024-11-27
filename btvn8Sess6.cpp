@@ -1,7 +1,7 @@
-include <stdio.h>
+#include <stdio.h>
 
 int main(){
-	float money,tienGui,tienGui;
+	float money,lai,tienGui;
 	int thang;
 	printf("vui long nhap vao tien gui, lai hang thang,so thang:\n");
 	scanf("%f %f %d",&tienGui,&lai,&thang);
