@@ -5,7 +5,7 @@ int main(){
 	while(doanMk!=matKhau){
 	printf("moi ban doan mat khau : ");
 	scanf("%d", &doanMk);
-		if(doanMk=matKhau){
+		if(doanMk==matKhau){
 			break;
 		}else{
 			printf("doan sai roi, doan lai di : ");
